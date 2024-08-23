@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../estilo/styleproductos.css">
+</head>
+<body>
+    <header class="header">
+      <div class="menu container">
+        <img src="../imagenes/elite motor.png" class="logo" id="img-logo" width="80px" alt="logo">
+
+          <input type="checkbox" id="menu"/>
+          <label for="menu">
+            <img src="../imagenes/menu.jpg" class="menu-icono" width="150px" alt="menu">
+          </label>
+          <nav class="navbar">
+             <ul>
+                <li><a href="../INDEX.HTML">Inicio</a></li>
+                <li><a href="Servicios.HTML">Servicios</a></li>
+                <li><a href="#"class="active">Catalogo</a></li>
+                <li><a href="Contacto.HTML">Contacto</a></li>
+             </ul>
+          </nav>
+          <div>
+            <ul>
+                <li class="submenu">
+                    <img src="../imagenes/carrito.jpg" id="img-carrito" width="50px" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" class="btn-2" id="vaciar-carrito"> Vaciar Carrito</a>
+                        </div>
+                </li>
+            </ul>
+          </div>
+      </div>
+  </header>
+  <main class="products container" id="lista-1">
+    <h2>Repuestos</h2>
+    <div class="products-content">
+        <div class="product">
+            <img src="../imagenes/amortiguadores.jpg" alt="">
+            <div class="product-txt">
+                <h3>AMORTIGUADORES</h3>
+                <p>Absorción de impactos</p>
+                <p>Control de la suspensión</p>    
+                <p>Mejora de la seguridad</p> 
+                <p class="precio">123Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="../imagenes/pastillas de freno.jpg" alt="">
+            <div class="product-txt">
+                <h3>PASTILLAS DE FRENO</h3>
+                <p>Frenado eficiente</p>
+                <p>Durabilidad</p>    
+                <p>Reducción del ruido</p> 
+                <p class="precio">55Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="../imagenes/filtro de acite.jpg" alt="">
+           
+            <div class="product-txt">
+                <h3>FILTRO DE ACEITE</h3>
+                <p>Filtración efectiva</p>
+                <p>Protección del motor</p>    
+                <p>Mantenimiento regular</p> 
+                <p class="precio">75Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="../imagenes/filtro de aire.jpg" alt="">
+            <div class="product-txt">
+                <h3>FILTRO DE AIRE</h3>
+                <p>Filtración del aire</p>
+                <p>RMejora del rendimiento del motor</p>    
+                <p>Mantenimiento y reemplazo</p> 
+                <p class="precio">50Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="../imagenes/BUJIAS.JPG" alt="">
+            <div class="product-txt">
+                <h3>BUJIAS</h3>
+                <p>Eficiencia de Encendido</p>
+                <p>Rendimiento del Motor</p>    
+                <p>Reemplazo periódico</p> 
+                <p class="precio">80Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="../imagenes/luces y faro.jpg" alt="">
+            <div class="product-txt">
+                <h3>LUCES Y FAROS</h3>
+                <p>Visibilidad y Seguridad</p>
+                <p>Iluminación Eficiente:</p>    
+                <p>Cumplimiento Normativo</p> 
+                <p class="precio">100Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="../imagenes/termostatos.jpg" alt="">
+            <div class="product-txt">
+                <h3>TERMOSTATOS</h3>
+                <p>Regulación de Temperatura</p>
+                <p>Apertura y Cierre Preciso</p>    
+                <p>Mantenimiento del Rendimiento del Motor</p> 
+                <p class="precio">50Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2>Productos De limpieza</h2>
+    <div class="products-content">
+        <div class="product">
+            <img src="../imagenes/brillanta.jpg" alt="">
+            <div class="product-txt">
+                <h3>BRILLANTA</h3>
+                <p>Brillo duradero y excepcional </p>
+                <p>Resultados de alta calidad </p>    
+                <p>Innovación en limpieza y pulido </p> 
+                <p class="precio">25Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="../imagenes/cera crema.jpg" alt="">
+            <div class="product-txt">
+                <h3>CERA CREMA</h3>
+                <p>Brillo de larga duración</p>
+                <p>Fácil aplicación</p>    
+                <p>Protección avanzada </p> 
+                <p class="precio">60Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="../imagenes/limpiaparabrisas.jpeg" alt="">
+           
+            <div class="product-txt">
+                <h3>LIMPIA PARABRISAS</h3>
+                <p>Limpieza efectiva</p>
+                <p>Antirrayas y Antihuellas</p>    
+                <p>Fácil aplicación</p> 
+                <p class="precio">20Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="../imagenes/silicona.jpg" alt="">
+            <div class="product-txt">
+                <h3>SILICONA WHITE</h3>
+                <p>Protección y brillo</p>
+                <p>Resistencia a los elementos</p>    
+                <p>Acabado sin residuos</p> 
+                <p class="precio">20Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="../imagenes/LIMPIA-TAPIZ.JPG" alt="">
+            <div class="product-txt">
+                <h3>SUPER LIMPIA TAPIZ</h3>
+                <p>Limpieza profunda</p>
+                <p>Cuidado del material</p>    
+                <p>Frescura duradera</p> 
+                <p class="precio">70Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="../imagenes/champu para autos.jpg" alt="">
+            <div class="product-txt">
+                <h3>CHAMPU DE AUTOS</h3>
+                <p>Limpieza efectiva </p>
+                <p>Protección de la pintura</p>    
+                <p>Fórmula concentrada </p> 
+                <p class="precio">40Bs</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+        </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="link-container">
+        <div class="link">
+            <h3>SUCURSAL COCHABAMBA</h3>
+            <ul>
+                <li><a href="#">SERVICIO TÉCNICO</a></li>
+                <li class="location">
+                    <img src="../imagenes/ubicacion.png" width="20px" alt="ubicacion">
+                    <a href="https://www.google.com/maps/place/Av.Segunda,+Cochabamba" target="_blank">Av. Segunda / Condenbamba</a>
+                </li>
+                <li class="phone-number">
+                    <img src="../imagenes/telefono.jpg" width="20px" alt="Teléfono">
+                    <a href="tel:611-0995">611-0995</a>
+                </li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>SUCURSAL LA PAZ</h3>
+            <ul>
+                <li><a href="#">PRODUCTOS</a></li>
+                <li class="location">
+                    <img src="../imagenes/ubicacion.png" width="20px" alt="ubicacion">
+                    <a href="https://www.google.com/maps/place/Av.Segunda,+La+Paz" target="_blank">Av. Segunda / Condenbamba</a>
+                </li>
+                <li class="phone-number">
+                    <img src="../imagenes/telefono.jpg" width="20px" alt="Teléfono">
+                    <a href="tel:611-0995">611-0995</a>
+                </li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>SUCURSAL SANTA CRUZ</h3>
+            <ul>
+                <li><a href="#">PRODUCTOS</a></li>
+                <li class="location">
+                    <img src="../imagenes/ubicacion.png" width="20px" alt="ubicacion">
+                    <a href="https://www.google.com/maps/place/Av.Segunda,+Santa+Cruz" target="_blank">Av. Segunda / Condenbamba</a>
+                </li>
+                <li class="phone-number">
+                    <img src="../imagenes/telefono.jpg" width="20px" alt="Teléfono">
+                    <a href="tel:611-0995">611-0995</a>
+                </li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>SÍGUENOS</h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=61564584151697" target="_blank">
+                    <img src="../imagenes/facebook.jpg" alt="Facebook" width="30px">
+                </a>
+                <a href="https://www.instagram.com/elitemotor.2000/" target="_blank">
+                    <img src="../imagenes/instagra.jpg" alt="Instagram" width="30px">
+                </a>
+                <a href="https://wa.me/+59172793459" target="_blank">
+                    <img src="../imagenes/whatsapp.jpg" alt="WhatsApp" width="30px">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-container">
+        <div class="navbar1">
+            <ul>
+                <li><a href="../INDEX.HTML">Inicio</a></li>
+                <li><a href="Servicios.HTML">Servicios</a></li>
+                <li><a href="#"class="active">Catalogo</a></li>
+                <li><a href="Contacto.HTML">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright-container">
+        <div class="copyright">
+            <p>&copy; 2024 ELITEMOTOR. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+  <script src="../javascript/script.js"></script> 
+</body>
+</html>

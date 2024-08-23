@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="../estilo/stylecontacto.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <img src="../imagenes/elite motor.png" class="logo" id="img-logo" width="80px" alt="logo">
+
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+              <img src="../imagenes/menu.jpg" class="menu-icono" width="150px" alt="menu">
+            </label>
+            <nav class="navbar">
+               <ul>
+                  <li><a href="../INDEX.HTML">Inicio</a></li>
+                  <li><a href="Servicios.HTML">Servicios</a></li>
+                  <li><a href="Productos.HTML">Catalogo</a></li>
+                  <li><a href="#" class="active">Contacto</a></li>
+               </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contacto container">
+        <h1>Contacto</h1>
+        <form action="envio.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="link-container">
+            <div class="link">
+                <h3>SUCURSAL COCHABAMBA</h3>
+                <ul>
+                    <li><a href="#">SERVICIO TÉCNICO</a></li>
+                    <li class="location">
+                        <img src="../imagenes/ubicacion.png" width="20px" alt="ubicacion">
+                        <a href="https://www.google.com/maps/place/Av.Segunda,+Cochabamba" target="_blank">Av. Segunda / Condenbamba</a>
+                    </li>
+                    <li class="phone-number">
+                        <img src="../imagenes/telefono.jpg" width="20px" alt="Teléfono">
+                        <a href="tel:611-0995">611-0995</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>SUCURSAL LA PAZ</h3>
+                <ul>
+                    <li><a href="#">PRODUCTOS</a></li>
+                    <li class="location">
+                        <img src="../imagenes/ubicacion.png" width="20px" alt="ubicacion">
+                        <a href="https://www.google.com/maps/place/Av.Segunda,+La+Paz" target="_blank">Av. Segunda / Condenbamba</a>
+                    </li>
+                    <li class="phone-number">
+                        <img src="../imagenes/telefono.jpg" width="20px" alt="Teléfono">
+                        <a href="tel:611-0995">611-0995</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>SUCURSAL SANTA CRUZ</h3>
+                <ul>
+                    <li><a href="#">PRODUCTOS</a></li>
+                    <li class="location">
+                        <img src="../imagenes/ubicacion.png" width="20px" alt="ubicacion">
+                        <a href="https://www.google.com/maps/place/Av.Segunda,+Santa+Cruz" target="_blank">Av. Segunda / Condenbamba</a>
+                    </li>
+                    <li class="phone-number">
+                        <img src="../imagenes/telefono.jpg" width="20px" alt="Teléfono">
+                        <a href="tel:611-0995">611-0995</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>SÍGUENOS</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61564584151697" target="_blank">
+                        <img src="../imagenes/facebook.jpg" alt="Facebook" width="30px">
+                    </a>
+                    <a href="https://www.instagram.com/elitemotor.2000/" target="_blank">
+                        <img src="../imagenes/instagra.jpg" alt="Instagram" width="30px">
+                    </a>
+                    <a href="https://wa.me/+59172793459" target="_blank">
+                        <img src="../imagenes/whatsapp.jpg" alt="WhatsApp" width="30px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-container">
+            <div class="navbar1">
+                <ul>
+                    <li><a href="../INDEX.HTML">Inicio</a></li>
+                    <li><a href="Servicios.HTML">Servicios</a></li>
+                    <li><a href="Productos.HTML">Catalogo</a></li>
+                    <li><a href="#" class="active">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright-container">
+            <div class="copyright">
+                <p>&copy; 2024 ELITEMOTOR. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
